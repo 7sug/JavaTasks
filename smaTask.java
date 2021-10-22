@@ -2,15 +2,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class sma {
-    public static void main(String args[]) {
+    public static void smaWorker(){
+        List<Integer> sma = new ArrayList<Integer>();
         int[] data = {2, 5, 7, 8, 3, 0, 10, 11, 15};
         int arrayLen = data.length;
-        List<Integer> sma = new ArrayList<Integer>();
         int sum = 0;
         int count = 0;
         int count2 = 3;
-
-
         for (int i = 3; i < arrayLen; i++) {
             for (int j = count; j < count2; j++)
                 sum += data[j];
@@ -24,4 +22,8 @@ public class sma {
         }
         System.out.println(sma);
     }
+    public static void main(String args[]) {
+        smaWorker();
+    }
+
 }
