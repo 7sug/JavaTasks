@@ -1,6 +1,6 @@
 import java.util.Collections;
 
-public class MedianFilter extends Filter {
+public class MFilterr extends MainFilter {
     @Override
     public void calc(){
         for(int i = window; i<=size; i++) {
