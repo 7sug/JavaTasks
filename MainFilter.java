@@ -1,6 +1,6 @@
 import java.io.IOException;
 import java.util.ArrayList;
-public abstract class Filter {
+public abstract class MainFilter {
     DataInput dataInput = new DataInput();
     ArrayList<Double> data;
     {
