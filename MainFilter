@@ -11,10 +11,9 @@ public abstract class Filter {
         }
     }
     int size = data.size();
-    ArrayList<Double> sma = new ArrayList<>();
     ArrayList<Double> medfilter = new ArrayList<>();
     ArrayList<Double> supportList = new ArrayList<>();
-    int window = SMA.MAwindow();
+    int window = Median.Window();
     double sum = 0;
     int count1 = 0;
     int count2 = window;
