@@ -12,11 +12,11 @@ public abstract class Filter {
     }
     int size = data.size();
     ArrayList<Double> medfilter = new ArrayList<>();
-    ArrayList<Double> supportList = new ArrayList<>();
+    ArrayList<Double> SecondMedList = new ArrayList<>();
     int window = Median.Window();
     double sum = 0;
-    int count1 = 0;
-    int count2 = window;
+    int FirstountingElement = 0;
+    int SecondCountingElement = window;
     double value = 0;
     int supportValue1;
     int supportValue2;
