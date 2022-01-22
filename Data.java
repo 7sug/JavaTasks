@@ -1,4 +1,4 @@
-public class AdaptData {
+public class Data {
     public static float[] adaptData(String data){
         String value;
         value = data;
