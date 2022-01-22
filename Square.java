@@ -1,4 +1,4 @@
-public class SquareRoot {
+public class Square {
     public static double sqrtRoot(double root){
 
         if(root <0){
